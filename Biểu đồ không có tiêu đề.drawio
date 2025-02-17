@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.14">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="2538" dy="446" grid="1" gridSize="13" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="3267" dy="740" grid="1" gridSize="13" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -214,14 +214,32 @@
             <mxPoint x="557" y="338" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cmOm1PKUMlEA9yqi15UK-89" value="Số lượng trong kho" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;perimeterSpacing=0;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="cmOm1PKUMlEA9yqi15UK-89" value="Tổng tiền" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;perimeterSpacing=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="780" y="349" width="78" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="cmOm1PKUMlEA9yqi15UK-90" value="Số lượng trong kho" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;perimeterSpacing=0;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="cmOm1PKUMlEA9yqi15UK-90" value="Số lượng" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;perimeterSpacing=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="793" y="453" width="78" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="cmOm1PKUMlEA9yqi15UK-91" value="Số lượng trong kho" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;perimeterSpacing=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="819" y="550" width="78" height="54" as="geometry" />
+        <mxCell id="cmOm1PKUMlEA9yqi15UK-92" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="cmOm1PKUMlEA9yqi15UK-79" target="cmOm1PKUMlEA9yqi15UK-89">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="631" y="385" as="sourcePoint" />
+            <mxPoint x="672" y="435" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cmOm1PKUMlEA9yqi15UK-93" value="" style="endArrow=none;html=1;rounded=0;entryX=-0.031;entryY=0.389;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cmOm1PKUMlEA9yqi15UK-79" target="cmOm1PKUMlEA9yqi15UK-90">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="744" y="434" as="sourcePoint" />
+            <mxPoint x="793" y="398" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cmOm1PKUMlEA9yqi15UK-96" value="Thể loại" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;perimeterSpacing=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="468" y="819" width="78" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="cmOm1PKUMlEA9yqi15UK-97" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="cmOm1PKUMlEA9yqi15UK-96" target="cmOm1PKUMlEA9yqi15UK-72">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="234" y="819" as="sourcePoint" />
+            <mxPoint x="250" y="793" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
